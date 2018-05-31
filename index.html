@@ -13,7 +13,7 @@
 <body>
     <header id="masthead">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="nav-item">
+          <div class="nav-item-name">
             <a id="logo" href="index.html">Alison Smith</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavy" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,11 +39,11 @@
 
 <div id="main-container" class="container container-fluid">
   <div class="row no-gutters">
-    <div class="col-12 col-sm-6 col-md-8">
+    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
       <section class="main-section">
         <h1>About Me</h1>
 
-        <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+        <img src="assets/images/cat.jpg" class="img-fluid" alt="Alison Smith">
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
   
@@ -52,17 +52,21 @@
         <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       </section>
     </div>
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-      <section class="main-section">
+
+
+<div class="col-md-4 col-lg-4 col-xl-4 d-none d-md-block">
+      <section class="side-section">  
+          <h1>Side Bar</h1>      
+          
+          <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
       </section>
     </div>
+  </div>
 </div>
 
-<footer class="navbar sticky-bottom">
-  <nav class="navbar">
-     <a class="nav-item" href="#"><p></p></a>
-  </nav>
- </footer>
+<footer class="navbar fixed-bottom navbar-light bg-light">
+        <nav class="navbar-brand">Copyright &copy;</nav>
+</footer>
 
 
 
