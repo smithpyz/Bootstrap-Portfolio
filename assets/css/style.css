@@ -64,6 +64,7 @@ h3 {
 }
 
 #logo {
+  margin-bottom: 10px;
   float: left;
   width: 250px;
   height: 45%;
@@ -78,17 +79,12 @@ h3 {
 }
 
 
-
-#navbarNavy {
-  float: inline-right;
-}
-
 .navbar {
-  /* float: clear; */
+  float: clear;
   margin-top: 1px;
 }
 
-.nav-item, .nav-item-name {
+li.nav-item {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
@@ -99,11 +95,6 @@ h3 {
   border-left: 2px solid #efefef;
   border-right: 2px solid #efefef;
 }
-
-.nav-item:first-child {
-  padding-left: 600px;
-}
-
 
 /* footer */
 
