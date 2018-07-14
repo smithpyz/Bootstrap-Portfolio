@@ -78,12 +78,11 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 90px;
+  padding-top: 30px;
   min-height: calc(100vh - 70px);
 }
 
 .main-section {
-  float: left;
   width: 100%;
   max-width: 960px;
   padding: 30px;
@@ -92,18 +91,6 @@ h3, h2 {
   border: 1px solid #ddd;
   height: 100%;
 }
-
-.side-section {
-  float: right;
-  width: 100%;
-  max-width: 960px;
-  padding: 30px;
-  margin-bottom: 40px;
-  background: #fff;
-  border: 1px solid #ddd;
-  height: 100%;
-}
-
 
 /* portfolio page */
 
