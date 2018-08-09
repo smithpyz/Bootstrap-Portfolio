@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-/* general */
+
 
 .container {
   width: 100%;
@@ -30,21 +30,6 @@ p:last-child {
 }
 
 
-/* h1 {
-  border-bottom: 2px dotted orangered;
-} */
-
-/* h2,
-h3 {
-  font-size: 22px;
-} */
-
-/* header */
-
-
-
-/* footer */
-
 footer {
   padding: 30px 0;
   clear: both;
@@ -57,21 +42,13 @@ footer {
   height: 50px;
 }
 
-/* h3, h2 {
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
-} */
 
-/* main */
 
 #main-container {
   padding-top: 30px;
   min-height: calc(100vh - 70px);
 }
 
-
-/* portfolio page */
 
 .work {
   position: relative;
@@ -113,7 +90,7 @@ footer {
   margin-right: 25px;
 }
 
-/* contact page */
+
 
 #contact-form ul {
   margin-bottom: 20px;
